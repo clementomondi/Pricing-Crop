@@ -1,0 +1,388 @@
+/* Add CSS here */
+body {
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    height: 600px;
+    max-width: 900px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.closet-1 {
+    height: 540px;
+    border-radius: 0.3em;
+    width: 32%;
+    background-color: #242424;
+    transition: .7s;
+}
+
+.closet-1:hover {
+    height: 540px;
+    transform: scale(0.96);
+    border-radius: 0.3em;
+    width: 32%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 4px #03a9f5;
+}
+
+.closet-2 {
+    height: 540px;
+    border-radius: 0.3em;
+    width: 32%;
+    background-color: #242424;
+    transition: .7s;
+}
+
+.closet-2:hover {
+    height: 540px;
+    transform: scale(0.96);
+    border-radius: 0.3em;
+    cursor: pointer;
+    width: 32%;
+    box-shadow: 0 4px 8px 4px #aa00ff;
+}
+
+.closet-3 {
+    height: 540px;
+    border-radius: 0.3em;
+    width: 32%;
+    background-color: #242424;
+    transition: .7s;
+}
+
+.closet-3:hover {
+    height: 540px;
+    cursor: pointer;
+    transform: scale(0.96);
+    border-radius: 0.3em;
+    box-shadow: 0 4px 8px 4px #f40057;
+    width: 32%;
+}
+
+.card-1 {
+    height: 230px;
+    padding: 30px;
+    overflow: hidden;
+    border-top-right-radius: 0.3em;
+    border-top-left-radius: 0.3em;
+    position: relative;
+    width: 100%;
+    background-color: #313131;
+}
+
+.card-1 h1 {
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.card-1 p {
+    font-size: 15px;
+    color: white;
+}
+
+.icon-1 {
+    padding-bottom: 30px;
+}
+
+.cyclone {
+    width: 60%;
+    height: 40px;
+    background-color: #03a9f5;
+    position: absolute;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    transform: rotate(40deg);
+}
+
+.cyclone-1 {
+    width: 60%;
+    height: 40px;
+    background-color: #aa00ff;
+    position: absolute;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    justify-content: center;
+    margin-top: -20px;
+    transform: rotate(40deg);
+}
+
+.cyclone-2 {
+    width: 60%;
+    height: 40px;
+    background-color: #f40057;
+    position: absolute;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    margin-top: -20px;
+    transform: rotate(40deg);
+}
+
+.cyclone h7 {
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-2 {
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    line-height: 70px;
+    gap: 5px;
+}
+
+.icon p {
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 0px;
+}
+
+button {
+    background-color: #1d1d1d;
+    height: 40px;
+    font-size: 15px;
+    color: yellow;
+    width: 100%;
+    transition: .7s; 
+    border-radius: 0.3em;
+}
+
+button:hover {
+    background-color: #1d1d1d;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 0.3em;
+    cursor: pointer;
+    transform: scale(0.96);
+    box-shadow: 0 4px 8px 4px yellow;
+    color: yellow;
+    width: 100%;
+
+}
+
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: #292929;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .container {
+        height: 700px;
+        max-width: 900px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .closet-1 {
+        height: 540px;
+        border-radius: 0.3em;
+        width: 80%;
+        background-color: #242424;
+        transition: .7s;
+    }
+
+    .closet-1:hover {
+        height: 540px;
+        transform: scale(0.96);
+        border-radius: 0.3em;
+        width: 80%;
+        cursor: pointer;
+        box-shadow: 0 4px 8px 4px #03a9f5;
+    }
+
+    .closet-2 {
+        height: 540px;
+        border-radius: 0.3em;
+        width: 80%;
+        background-color: #242424;
+        transition: .7s;
+    }
+
+    .closet-2:hover {
+        height: 540px;
+        transform: scale(0.96);
+        border-radius: 0.3em;
+        cursor: pointer;
+        width: 80%;
+        box-shadow: 0 4px 8px 4px #aa00ff;
+    }
+
+    .closet-3 {
+        height: 540px;
+        border-radius: 0.3em;
+        width: 80%;
+        background-color: #242424;
+        transition: .7s;
+    }
+
+    .closet-3:hover {
+        height: 540px;
+        cursor: pointer;
+        transform: scale(0.96);
+        border-radius: 0.3em;
+        box-shadow: 0 4px 8px 4px #f40057;
+        width: 80%;
+    }
+
+    .card-1 {
+        height: 230px;
+        padding: 30px;
+        overflow: hidden;
+        border-top-right-radius: 0.3em;
+        border-top-left-radius: 0.3em;
+        position: relative;
+        width: 100%;
+        background-color: #313131;
+    }
+
+    .card-1 h1 {
+        font-size: 17px;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .card-1 p {
+        font-size: 15px;
+        color: white;
+    }
+
+    .icon-1 {
+        padding-bottom: 30px;
+    }
+
+    .cyclone {
+        width: 60%;
+        height: 40px;
+        background-color: #03a9f5;
+        position: absolute;
+        margin-left: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -20px;
+        transform: rotate(40deg);
+    }
+
+    .cyclone-1 {
+        width: 60%;
+        height: 40px;
+        background-color: #aa00ff;
+        position: absolute;
+        margin-left: 130px;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-weight: 800;
+        justify-content: center;
+        margin-top: -20px;
+        transform: rotate(40deg);
+    }
+
+    .cyclone-2 {
+        width: 60%;
+        height: 40px;
+        background-color: #f40057;
+        position: absolute;
+        margin-left: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 800;
+        margin-top: -20px;
+        transform: rotate(40deg);
+    }
+
+    .cyclone h7 {
+        font-size: 16px;
+        font-weight: 800;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-2 {
+        height: 300px;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        line-height: 40px;
+        line-height: 70px;
+        gap: 5px;
+    }
+
+    .icon p {
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        padding-bottom: 0px;
+    }
+
+    button {
+        background-color: #1d1d1d;
+        height: 40px;
+        font-size: 15px;
+        color: yellow;
+        width: 100%;
+        transition: .7s;
+    }
+
+    button:hover {
+        background-color: #1d1d1d;
+        height: 40px;
+        font-size: 15px;
+        cursor: pointer;
+        transform: scale(0.96);
+        color: yellow;
+        width: 100%;
+    }
+}
